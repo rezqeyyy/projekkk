@@ -1,135 +1,227 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenUrbanLife</title>
-    <link rel="shortcut icon" type="x - icon" href="design1.png">
-    <link rel="stylesheet" href="style.css">
-</head> 
-<body>
-    <head>
-        <img src="design1.png" alt="gambar1">
-        <nav class="nav1">
-            <ul>
-                <li><a href="#About">About Us</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#tools">Tools</a></li>
-                <li><a href="#Resources">Resources</a></li>
-                <li><a href="#Stories">Stories</a></li>
-                <li><a href="#galeri">Gallery</a></li>
-                <li><a href="#support">Support Us</a></li>
-            </ul>
-        </nav>
-        <div class="topnav">
-            <input type="text" placeholder="Cari Kotamu">
-          </div>
-    </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="design1.png">
+</head>
 
-    <section id="About" class="section">
-        <div class="container">
-            <h2>About GreenUrbanLife</h2>
-            <p>
-                Welcome to GreenUrbanLife, your go-to resource for everything related to 
-                sustainable cities and communities in Indonesia. Our mission is to inspire 
-                and support the creation of inclusive, safe, resilient, and sustainable urban 
-                environments across the nation.</p>
-        </div>
-        <div class="mission">
-            <h3>Mission</h3>
-            <p><b>Promote Sustainable Urban Planning</b><br>
-                Encourage the adoption of green building practices, 
-                energy-efficient infrastructure, and eco-friendly transportation options.</p>
-            <p><b>Foster Community Engagement</b><br>
-                Empower local communities to participate in decision-making processes and promote inclusive urban development.</p>
-            <p><b>Support Resilience and Adaptation</b><br>
-                Advocate for measures that enhance cities' resilience to climate change and other environmental challenges.</p>
-            <p><b>Share Knowledge and Best Practices</b><br>
-                Provide a platform for sharing success stories, research, and innovative solutions in sustainable urban development.</p>
-        </div>
-        <div class="Vision">
-            <h3>Vision</h3>
-            <p>At GreenUrbanLife, we envision a future where Indonesian cities thrive in harmony with nature, 
-                offering high quality of life for all residents. We believe in the power of sustainable urban 
-                development to transform our cities into greener, healthier, and more vibrant places to live and work.</p>
-        </div>
-        <div class="Offer">
-            <h3>What We Offer</h3>
-            <p><b>Resources and Tools</b><br>
-                Access a wide range of resources, including articles, guides, case studies, and toolkits designed to 
-                support sustainable urban development.</p>
-            <p><b>Community Stories</b><br>
-                Read inspiring stories of communities and individuals making a difference in their cities through sustainable 
-                initiatives.</p>
-            <p><b>Events and Workshops</b><br>
-                Stay informed about upcoming events, workshops, and seminars focused on sustainable urban development.</p>
-            <p><b>Collaborative Projects</b><br>
-                Learn about collaborative projects and partnerships aimed at driving sustainable change in urban environments.</p>
-        </div>
-    </section>
+<body class="bg-green-50">
 
-    <section id="work" class="section">
-        <div class="container">
-            <h1>Our Work</h1>
-            <p>At GreenUrbanLife, we are dedicated to promoting sustainable urban development and fostering vibrant communities 
-                across Indonesia. Our efforts focus on key areas that drive meaningful change and create lasting impacts.</p>
+    <!-- Header Section -->
+    <header class="bg-green-500 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="design1.png" alt="GreenUrbanLife Logo" class="w-20">
+            <nav class="flex space-x-4 text-white">
+                <a href="#About" class="hover:text-green-300">About Us</a>
+                <a href="#work" class="hover:text-green-300">Work</a>
+                <a href="#tools" class="hover:text-green-300">Tools</a>
+                <a href="#Resources" class="hover:text-green-300">Resources</a>
+                <a href="#Stories" class="hover:text-green-300">Stories</a>
+                <a href="#gallery" class="hover:text-green-300">Gallery</a>
+                <a href="#support" class="hover:text-green-300">Support Us</a>
+            </nav>
+            <div class="flex space-x-4 items-center">
+                <input type="text" placeholder="Search your city"
+                    class="px-4 py-2 rounded-lg bg-green-300 text-green-900 focus:outline-none">
+                <button class="px-4 py-2 bg-green-300 text-green-900 rounded-lg hover:bg-green-400 focus:outline-none">Search</button>
+            </div>
         </div>
+    </header>
 
-        <div class="urban">
-            <h1>Sustainable Urban Planning</h1>
-            <p>We collaborate with city planners, architects, and local governments to integrate sustainability into urban planning processes. 
-                Our initiatives include:</p><br>
-            <ul>
-                <li><b>Green Building Practices:</b>
-                    Promoting the adoption of eco-friendly construction materials and energy-efficient designs in new developments.</li>
-                <li><b>Urban Green Spaces:</b>
-                    Advocating for the creation and maintenance of parks, community gardens, and green rooftops to enhance urban biodiversity 
-                    and provide recreational areas for residents.</li>
-                <li><b>Sustainable Infrastructure: </b>
-                    Supporting the development of sustainable transportation systems, including bike lanes, pedestrian-friendly zones, and public 
-                    transit networks.</li>
-            </ul>
-            <h1>Community Engagement and Education</h1>
-            <p>Empowering communities to actively participate in sustainable urban development is at the heart of our mission. We work to:</p>
-            <ul>
-                <li><b>Workshops and Training:</b>Organize educational workshops and training sessions on topics such as waste management, urban farming, 
-                    and renewable energy.</li>
-                <li><b>Community Projects:</b>
-                    Facilitate community-led projects that address local sustainability challenges and foster a sense of ownership and collaboration.</li>
-                <li><b>Awareness Campaigns:</b>
-                    Launch campaigns to raise awareness about the importance of sustainability and encourage eco-friendly practices in daily life.</li>
-            </ul>
-        </div>
+    <!-- Main Content Sections -->
+    <main>
+        <!-- About Section -->
+        <section id="About" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-green-800 mb-8">About GreenUrbanLife</h2>
+                <p class="text-lg text-green-700 leading-relaxed">
+                    Welcome to GreenUrbanLife, your go-to resource for everything related to sustainable cities and communities in Indonesia. Our mission is to inspire and support the creation of inclusive, safe, resilient, and sustainable urban environments across the nation.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                    <div class="text-green-800">
+                        <h3 class="text-2xl font-semibold mb-4">Mission</h3>
+                        <p class="mb-4">Promote Sustainable Urban Planning</p>
+                        <p class="mb-4">Foster Community Engagement</p>
+                        <p class="mb-4">Support Resilience and Adaptation</p>
+                        <p>Share Knowledge and Best Practices</p>
+                    </div>
+                    <div class="text-green-800">
+                        <h3 class="text-2xl font-semibold mb-4">Vision</h3>
+                        <p class="mb-4">At GreenUrbanLife, we envision a future where Indonesian cities thrive in harmony with nature, offering high quality of life for all residents. We believe in the power of sustainable urban development to transform our cities into greener, healthier, and more vibrant places to live and work.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </section>
-    <br>
+        <!-- Work Section -->
+        <section id="work" class="py-20 bg-green-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-green-800 mb-8">Our Work</h2>
+                <p class="text-lg text-green-700 leading-relaxed mb-12">
+                    At GreenUrbanLife, we are dedicated to promoting sustainable urban development and fostering vibrant communities across Indonesia. Our efforts focus on key areas that drive meaningful change and create lasting impacts.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Sustainable Urban Planning</h3>
+                        <p class="text-green-800 mb-4">We collaborate with city planners, architects, and local governments to integrate sustainability into urban planning processes.</p>
+                        <ul class="list-disc ml-8 text-green-800">
+                            <li>Promote Green Building Practices</li>
+                            <li>Create Urban Green Spaces</li>
+                            <li>Develop Sustainable Infrastructure</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Community Engagement and Education</h3>
+                        <p class="text-green-800 mb-4">Empowering communities to actively participate in sustainable urban development is at the heart of our mission.</p>
+                        <ul class="list-disc ml-8 text-green-800">
+                            <li>Organize Workshops and Training</li>
+                            <li>Facilitate Community Projects</li>
+                            <li>Launch Awareness Campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="Stories" class="section">
-        <div class="container">
-            <h1>Stories</h1>
-            <p>Welcome to the GreenUrbanLife Stories section, where we celebrate the inspiring efforts of individuals, communities, and organizations 
-                working towards creating sustainable cities and communities across Indonesia. Discover the journeys, challenges, and successes of 
-                those making a positive impact on our urban environments.</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="learn">Learn More</a></li>
-            </ul>
-        </nav>
-    </section>
+        <!-- Tools Section -->
+        <section id="tools" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-green-800 mb-8">Tools</h2>
+                <p class="text-lg text-green-700 leading-relaxed mb-8">Explore our collection of tools designed to support sustainable urban development.</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Urban Sustainability Tool</h3>
+                        <p>Evaluate the sustainability of urban areas using a comprehensive set of indicators.</p>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Green Building Calculator</h3>
+                        <p>Calculate the environmental benefits and cost savings of implementing green building practices.</p>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Community Engagement Toolkit</h3>
+                        <p>Access resources to facilitate effective community involvement in urban planning and development.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="galeri" class="section">
-        <div class="container">
-            <img src="design1.png" alt="galeri1">
-            <img src="design2.png" alt="gambar2">
-        </div>
-    </section>
+        <!-- Resources Section -->
+        <section id="Resources" class="py-20 bg-green-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-green-800 mb-8">Resources</h2>
+                <p class="text-lg text-green-700 leading-relaxed mb-8">Menyediakan akses sumber daya dan pengetahuan untuk mendorong kolaborasi, mempromosikan ide-ide baru, dan memobilisasi dukungan masyarakat.</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Proyek A: Implementasi Urban Farming</h3>
+                        <p>Pelajari cara-cara penerapan urban farming di perkotaan.</p>
+                        <a href="proyek-a.pdf" class="text-green-500 hover:underline">Buka PDF</a>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Penelitian B: Transportasi Berkelanjutan</h3>
+                        <p>Studi kasus mengenai pengembangan sistem transportasi yang berkelanjutan di kota-kota besar.</p>
+                        <a href="penelitian-b.pdf" class="text-green-500 hover:underline">Buka PDF</a>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Program C: Pengelolaan Limbah</h3>
+                        <p>Strategi pengelolaan limbah yang efektif dan ramah lingkungan.</p>
+                        <a href="program-c.pdf" class="text-green-500 hover:underline">Buka PDF</a>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Inisiatif D: Energi Terbarukan</h3>
+                        <p>Inisiatif untuk memperkenalkan dan mengembangkan penggunaan energi terbarukan di perkotaan.</p>
+                        <a href="inisiatif-d.pdf" class="text-green-500 hover:underline">Buka PDF</a>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Laporan E: Keterlibatan Komunitas</h3>
+                        <p>Laporan tentang berbagai proyek keterlibatan komunitas yang sukses dalam pengembangan perkotaan.</p>
+                        <a href="laporan-e.pdf" class="text-green-500 hover:underline">Buka PDF</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <footer>
-        <div class="container">
-            <img src="design2.png" alt="gambarAkhir">
-            <p>GreenUrbanLife</p>
-            <p>Jl. Syukur No.1, RT.1/RW.8, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12610</p>
-            <p>Email: info@man13-jkt.sch.id</p>
-            <p>021-78886355</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253800.9410201705!2d106.71503525351707!3d-6.310973592129355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3cdb3fc868d%3A0xe943100eae943e29!2sShopee%20Indonesia!5e0!3m2!1sid!2sid!4v1720532203460!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Stories Section -->
+        <section id="Stories" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-green-800 mb-8">Stories</h2>
+                <p class="text-lg text-green-700 leading-relaxed mb-8">Welcome to the GreenUrbanLife Stories section, where we celebrate the inspiring efforts of individuals, communities, and organizations working towards creating sustainable cities and communities across Indonesia. Discover the journeys, challenges, and successes of those making a positive impact on our urban environments.</p>
+                <nav>
+                    <ul>
+                        <li><a href="#learn" class="text-green-500 hover:underline">Learn More</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-20 bg-green-100">
+            <div class="container mx-auto px-4 flex justify-center space-x-8">
+                <img src="design1.png" alt="Gallery Image 1" class="w-1/3 rounded-lg shadow-lg">
+                <img src="design2.png" alt="Gallery Image 2" class="w-1/3 rounded-lg shadow-lg">
+            </div>
+        </section>
+
+        <!-- Support Us Section -->
+        <section id="support" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-green-800 mb-8">Support Us</h2>
+                <p class="text-lg text-green-700 leading-relaxed mb-8">Join us in promoting sustainable urban development. Here's how you can support our mission:</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Donate</h3>
+                        <p>Your financial contributions help us continue our work and expand our impact.</p>
+                        <table class="text-green-800 mt-4">
+                            <tr>
+                                <td>Bank Name:</td>
+                                <td>BNI Cab. xxx</td>
+                            </tr>
+                            <tr>
+                                <td>Account Number:</td>
+                                <td>xxx xxx xxx</td>
+                            </tr>
+                            <tr>
+                                <td>Name:</td>
+                                <td>Yayasan Depok</td>
+                            </tr>
+                            <tr>
+                                <td>Swift Code:</td>
+                                <td>AAAAAA</td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td>Jl. Melati</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Volunteer</h3>
+                        <p>Get involved in our projects and initiatives to make a tangible difference in your community.</p>
+                    </li>
+                    <li class="text-green-800">
+                        <h3 class="text-xl font-semibold mb-4">Partner with Us</h3>
+                        <p>Collaborate with us to drive sustainable change through joint projects and initiatives.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-green-500 py-10">
+        <div class="container mx-auto px-4 flex flex-col items-center">
+            <img src="design2.png" alt="Footer Logo" class="w-20 mb-4">
+            <p class="text-white text-center mb-4">GreenUrbanLife</p>
+            <p class="text-white text-center mb-4">Jl. Syukur No.1, RT.1/RW.8, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12610</p>
+            <p class="text-white text-center mb-4">Email: info@man13-jkt.sch.id</p>
+            <p class="text-white text-center">021-78886355</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253800.9410201705!2d106.71503525351707!3d-6.310973592129355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3cdb3fc868d%3A0xe943100eae943e29!2sShopee%20Indonesia!5e0!3m2!1sid!2sid!4v1720532203460!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </footer>
+
 </body>
+
+</html>
